@@ -109,11 +109,11 @@ Forma de Execução: Os relatórios HTML gerados em qc_raw/ devem ser abertos em
 | 60                  | 1 em 1.000.000            | 99,9999%             |
 
 
-# Avaliação de Qualidade - FASTQC
+## Avaliação de Qualidade - FASTQC
 
-Abaixo está uma imagem de exemplo de um gráfico de avaliação da qualidade das leituras (Per Base Sequence Quality) gerado pelo FastQC:
+Abaixo está uma imagem de exemplo da avaliação de qualidade (Per Base Sequence Quality) gerada pelo FastQC:
 
-![Avaliação de Qualidade - FastQC](escolaveraoiwasai/blob/main/montagemEanotacao/AVQ.png)
+![Avaliação de Qualidade - FastQC](https://raw.githubusercontent.com/allanverasce/escolaveraoiwasai/main/montagemEanotacao/AVQ.png)
 
 
 ### Interpretação dos Gráficos do FastQC:
