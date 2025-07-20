@@ -100,5 +100,50 @@ Métricas de Qualidade da Montagem (Explicadas): O QUAST gera um relatório abra
 - Gráficos do QUAST: O relatório HTML inclui gráficos como a distribuição de comprimentos de contigs, que visualiza a contiguidade da montagem.
 
 
+### 2.3 Avaliação de Completude Gênica com BUSCO
+
+### 1. Instalação do BUSCO
+Recomenda-se o uso do Conda:
+```
+conda create -n busco -c conda-forge -c bioconda busco
+conda activate busco
+```
+
+### 2. Preparação dos arquivos
+Você precisará de:
+- Arquivo da montagem genômica em formato FASTA (ex: genome.fna)
+
+- Linha evolutiva apropriada do OrthoDB para procariotos, como:
+bacteria_odb10 (bactérias)
+archaea_odb10 (arqueias)
+
+Download da base de ortólogos (lineage):
+```
+wget https://busco-data.ezlab.org/v10/data/lineages/bacteria_odb10.2020-09-10.tar.gz
+tar -xzf bacteria_odb10.2020-09-10.tar.gz
+```
+### 3. Execução do BUSCO
+Comando típico para uma montagem genômica bacteriana:
+```
+busco -i genome.fna \
+-o busco_bacteria_output \
+-l bacteria_odb10 \
+-m genome \
+--cpu 8
+```
+Parâmetros explicados:
+- -i: Arquivo FASTA com a montagem genômica
+- -o: Nome do diretório de saída
+- -l: Diretório com a base de dados de ortólogos (bacteria_odb10)
+- -m: Modo de análise (genome, pois a entrada é uma montagem genômica)
+- --cpu: Número de threads a serem utilizadas
+
+
+
+
+
+
+
+
 
 
