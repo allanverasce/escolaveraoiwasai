@@ -67,7 +67,37 @@ mkdir quast_report
 quast.py assembly/SRR10461876_assembly/contigs.fasta -o quast_report/
 ```
 
+Forma de Execução: Abrir o relatório HTML gerado em quast_report/ em um navegador web para uma análise detalhada.
 
+### Descrição Detalhada:
+
+- sudo apt install -y quast: Instala a ferramenta QUAST.
+
+- mkdir quast_report: Cria um diretório para armazenar os relatórios do QUAST.
+
+- quast.py assembly/SRR10461876_assembly/contigs.fasta -o quast_report/: Executa o QUAST no arquivo contigs.fasta gerado pelo SPAdes.
+
+Você pode opcionalmente fornecer um genoma de referência com -r reference.fasta para obter métricas adicionais, como alinhamento e cobertura em relação a uma referência conhecida.
+
+Métricas de Qualidade da Montagem (Explicadas): O QUAST gera um relatório abrangente com várias estatísticas, sendo as mais importantes:
+
+- Número de contigs: O total de sequências contíguas geradas. Para um genoma procarioto, o ideal é ter um número baixo (próximo de 1 para um cromossomo circular, mais alguns para plasmídeos). Um número muito alto pode indicar uma montagem fragmentada.
+
+- Tamanho total do genoma montado (Total length): A soma dos comprimentos de todos os contigs. Deve ser próximo ao tamanho esperado do genoma do organismo (e.g., 4-5 Mbp para muitas bactérias). Desvios significativos podem indicar contaminação ou montagem incompleta.
+
+- N50: Uma métrica de contiguidade. É o comprimento do contig tal que 50% do comprimento total do genoma montado está contido em contigs de tamanho igual ou maior que N50. Um N50 maior indica uma montagem mais contígua (menos fragmentada). Por exemplo, se o N50 for 1 Mbp, significa que metade do genoma está em contigs de 1 Mbp ou maiores.
+
+- NGA50: Similar ao N50, mas considera a montagem em relação a um genoma de referência (se fornecido).
+
+- Maior contig (Largest contig): O comprimento do contig mais longo na montagem.
+
+- Conteúdo GC (%GC): A porcentagem de bases Guanina e Citosina no genoma montado. Deve ser consistente com o conteúdo GC esperado para a espécie.
+
+- Número de Ns (Número de bases indeterminadas): O total de bases "N" (qualquer base) nos contigs. Um número alto de Ns indica lacunas na montagem.
+
+- Misassemblies (se referência fornecida): Pontos onde a montagem difere significativamente do genoma de referência, indicando erros estruturais.
+
+- Gráficos do QUAST: O relatório HTML inclui gráficos como a distribuição de comprimentos de contigs, que visualiza a contiguidade da montagem.
 
 
 
