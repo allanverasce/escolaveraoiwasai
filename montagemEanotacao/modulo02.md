@@ -102,7 +102,7 @@ Métricas de Qualidade da Montagem (Explicadas): O QUAST gera um relatório abra
 
 ### 2.3 Avaliação de Completude Gênica com BUSCO
 
-### 1. Instalação do BUSCO
+### 1. Instalação do BUSCO - https://busco.ezlab.org/busco_userguide.html
 Recomenda-se o uso do Conda:
 ```
 conda create -n busco -c conda-forge -c bioconda busco
@@ -146,6 +146,35 @@ busco_bacteria_output/short_summary_*.txt
 Exemplo de saída:
 `C:95.2%[S:93.5%,D:1.7%],F:2.3%,M:2.5%,n:124`  
 
+Legenda:
 
+- C: Genes BUSCO completos
 
+- S: Genes BUSCO completos de cópia única
 
+- D: Genes BUSCO completos duplicados
+
+- F: Genes fragmentados
+
+- M: Genes ausentes
+
+- n: Total de grupos de ortólogos esperado
+
+### 5. Dicas de Boas Práticas
+- Use --auto-lineage-prok se não tiver certeza da linhagem correta
+
+- Para execução offline após o primeiro uso, adicione --offline
+
+- Para controle total, você ainda pode usar -l bacteria_odb10 ou -l archaea_odb10
+
+- Execução do BUSCO com --auto-lineage-prok
+
+- Este modo detecta automaticamente se o genoma é bacteriano ou arqueano, e usa a base de dados correspondente.
+
+```
+busco -i genome.fna \
+-o busco_output \
+-m genome \
+--auto-lineage-prok \
+--cpu 8
+```
