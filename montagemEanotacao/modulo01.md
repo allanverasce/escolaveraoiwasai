@@ -8,8 +8,8 @@ Ferramentas: apt, wget, git
 
 Comandos:
 
-´´´
+```
 sudo apt update
 sudo apt upgrade -y
 sudo apt install -y build-essential wget git unzip screen default-jre
-´´´
+```
