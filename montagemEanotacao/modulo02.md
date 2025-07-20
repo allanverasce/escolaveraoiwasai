@@ -52,7 +52,7 @@ Saídas do SPAdes: O diretório de saída (assembly/SRR10461876_assembly/) conte
 
 Conceito de K-mers: Montadores de novo como o SPAdes funcionam construindo um grafo de De Bruijn. Eles quebram os reads em sub-sequências de comprimento fixo chamadas "k-mers". As sobreposições entre esses k-mers são usadas para construir o grafo, onde os nós são k-mers e as arestas representam sobreposições. Caminhos através do grafo representam as sequências do genoma. O SPAdes testa múltiplos tamanhos de k-mers automaticamente para encontrar a melhor montagem.
 
-<img src="grafo.png" alt="Grafos" width="400" height="300" />
+<img src="grafo.png" alt="Grafos" width="800" height="600" />
 
 
 
