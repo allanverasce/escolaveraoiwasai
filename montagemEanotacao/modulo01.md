@@ -99,6 +99,16 @@ Forma de Execução: Os relatórios HTML gerados em qc_raw/ devem ser abertos em
 
 - Em geral, reads com qualidade Phred abaixo de Q20 (especialmente nas extremidades) são considerados de baixa qualidade e devem ser removidos ou trimados.
 
+| Qualidade Phred (Q) | Probabilidade de Erro (P) | Precisão da Base (%) |
+|---------------------|---------------------------|-----------------------|
+| 10                  | 1 em 10                   | 90%                  |
+| 20                  | 1 em 100                  | 99%                  |
+| 30                  | 1 em 1.000                | 99,9%                |
+| 40                  | 1 em 10.000               | 99,99%               |
+| 50                  | 1 em 100.000              | 99,999%              |
+| 60                  | 1 em 1.000.000            | 99,9999%             |
+
+
 ### Interpretação dos Gráficos do FastQC:
 
 Per Base Sequence Quality:
