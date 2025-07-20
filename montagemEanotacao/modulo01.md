@@ -189,3 +189,64 @@ trimmed_reads/SRR10461876_2_paired.fastq trimmed_reads/SRR10461876_2_unpaired.fa
 ILLUMINACLIP:${TRIMMOMATIC_DIR}/adapters/TruSeq3-PE.fa:2:30:10 \
 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 ```
+
+### Descrição Detalhada:
+
+O Trimmomatic é uma ferramenta baseada em Java para trimagem de reads de sequenciamento de alto rendimento.
+
+- wget ... Trimmomatic-0.39.zip: Baixa o arquivo compactado do Trimmomatic.
+
+- unzip Trimmomatic-0.39.zip: Descompacta a ferramenta.
+
+- TRIMMOMATIC_DIR=$(pwd)/Trimmomatic-0.39: Define uma variável de ambiente para o diretório do Trimmomatic, facilitando a referência aos arquivos de adaptadores.
+
+- mkdir trimmed_reads: Cria um diretório para armazenar os reads de alta qualidade após a trimagem.
+
+- java -jar ${TRIMMOMATIC_DIR}/trimmomatic-0.39.jar PE: Executa o Trimmomatic.
+
+- PE: Indica que estamos processando reads pareados (Paired-End). Para reads single-end, usaria SE.
+
+- raw_data/SRR10461876_1.fastq raw_data/SRR10461876_2.fastq: São os arquivos de entrada para os reads forward e reverse, respectivamente.
+
+- trimmed_reads/SRR10461876_1_paired.fastq trimmed_reads/SRR10461876_1_unpaired.fastq \ trimmed_reads/SRR10461876_2_paired.fastq trimmed_reads/SRR10461876_2_unpaired.fastq: São os quatro arquivos de saída. O Trimmomatic separa os reads em:
+
+- _paired.fastq: Reads que ainda têm seu par após a trimagem. Estes são os mais importantes para a montagem de novo.
+
+- _unpaired.fastq: Reads que perderam seu par (porque o par foi descartado ou trimado excessivamente). Podem ser usados em algumas montagens, mas geralmente são menos informativos.
+
+Parâmetros de Trimagem (Explicados):
+
+- ILLUMINACLIP:${TRIMMOMATIC_DIR}/adapters/TruSeq3-PE.fa:2:30:10: Esta operação remove sequências de adaptadores Illumina.
+
+- TruSeq3-PE.fa: É o arquivo FASTA contendo as sequências dos adaptadores Illumina. O Trimmomatic vem com vários arquivos de adaptadores pré-definidos.
+
+- 2: Máximo de mismatches permitidos ao alinhar o adaptador.
+
+- 30: Palindromic clip threshold. Se a sequência do read e seu par se sobrepuserem com o adaptador, esta é a pontuação mínima para remover o adaptador.
+
+- 10: Simple clip threshold. Pontuação mínima para remover o adaptador de um read individual.
+
+- LEADING:3: Remove bases do início (leading) de um read se a qualidade Phred for menor que 3. Isso é útil para cortar bases de baixa qualidade que podem aparecer no começo da leitura.
+
+- TRAILING:3: Remove bases do final (trailing) de um read se a qualidade Phred for menor que 3. Semelhante ao LEADING, mas atua no final, onde a qualidade geralmente decai.
+
+- SLIDINGWINDOW:4:15: Implementa uma estratégia de trimagem de janela deslizante.
+
+- 4: Tamanho da janela (em bases).
+
+- 15: Qualidade mínima média dentro da janela.
+
+O Trimmomatic desliza uma janela de 4 bases ao longo do read. Se a qualidade média das bases dentro dessa janela cair abaixo de 15, o read é cortado a partir da primeira base da janela. Isso ajuda a remover seções de baixa qualidade dentro do read.
+
+- MINLEN:36: Descarta completamente qualquer read que, após todas as operações de trimagem, tenha um comprimento inferior a 36 bases. Reads muito curtos são difíceis de alinhar ou montar de forma confiável.
+
+### 1.5 Reavaliação da Qualidade dos Reads Trimados
+Objetivo: Confirmar a melhoria da qualidade dos reads após a trimagem e filtragem, garantindo que os dados estão prontos para a montagem. Esta etapa é um controle de qualidade final antes de prosseguir.
+
+Ferramentas: FastQC
+
+Comandos:
+```
+mkdir qc_trimmed
+fastqc trimmed_reads/*.fastq -o qc_trimmed/
+```
