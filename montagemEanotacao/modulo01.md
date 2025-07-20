@@ -40,7 +40,7 @@ fastq-dump --split-files SRR10461876
 
 Descrição: Cria um diretório raw_data e baixa os arquivos FASTQ. Se os dados estiverem no NCBI SRA, é necessário instalar o SRA Toolkit e usar fastq-dump.
 
-## 1.3 Avaliação da Qualidade dos Reads
+## 1.3 Avaliação da Qualidade das Leituras (Reads)
 Objetivo: Avaliar a qualidade dos reads brutos para identificar problemas (adaptadores, bases de baixa qualidade).
 
 Ferramentas: FastQC
