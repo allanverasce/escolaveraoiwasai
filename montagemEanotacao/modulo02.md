@@ -54,6 +54,20 @@ Conceito de K-mers: Montadores de novo como o SPAdes funcionam construindo um gr
 
 <img src="grafo.png" alt="Grafos" width="800" height="600" />
 
+### 2.2 Avaliação da Qualidade da Montagem
+Objetivo: Avaliar métricas importantes da montagem para determinar sua completude, contiguidade e acurácia. Esta etapa é crucial para entender a qualidade do genoma reconstruído.
+
+Ferramentas: QUAST (Quality Assessment Tool for Genome Assemblies)
+
+Comandos:
+
+```
+sudo apt install -y quast
+mkdir quast_report
+quast.py assembly/SRR10461876_assembly/contigs.fasta -o quast_report/
+```
+
+
 
 
 
