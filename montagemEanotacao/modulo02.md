@@ -138,11 +138,13 @@ Parâmetros explicados:
 - -m: Modo de análise (genome, pois a entrada é uma montagem genômica)
 - --cpu: Número de threads a serem utilizadas
 
-
-
-
-
-
+### 4. Interpretação dos Resultados
+O relatório principal estará em:
+```
+busco_bacteria_output/short_summary_*.txt
+```
+Exemplo de saída:
+`C:95.2%[S:93.5%,D:1.7%],F:2.3%,M:2.5%,n:124`  
 
 
 
