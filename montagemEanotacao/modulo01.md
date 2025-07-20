@@ -113,7 +113,7 @@ Forma de Execução: Os relatórios HTML gerados em qc_raw/ devem ser abertos em
 
 Abaixo está uma imagem de exemplo da avaliação de qualidade (Per Base Sequence Quality) gerada pelo FastQC:
 
-![Avaliação de Qualidade - FastQC](https://raw.githubusercontent.com/allanverasce/escolaveraoiwasai/main/montagemEanotacao/AVQ.png)
+<img src="montagemEanotacao/AVQ.png" alt="StartWindow" width="300" height="200" />
 
 
 ### Interpretação dos Gráficos do FastQC:
