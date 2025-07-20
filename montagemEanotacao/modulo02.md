@@ -178,3 +178,7 @@ busco -i genome.fna \
 --auto-lineage-prok \
 --cpu 8
 ```
+### Gráfico para análise do resultado
+<img src="busco_plot.png" alt="BUSCO" width="800" height="600" />
+
+
