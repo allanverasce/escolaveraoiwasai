@@ -6,9 +6,27 @@ Este módulo aborda a reconstrução do genoma a partir dos reads curtos e a ava
 <img src="etapasM.png" alt="Etapas de Montagem" width="800" height="600" />
 
 
+
 ### 2.1 Montagem de Genomas (De Novo Assembly)
 Objetivo: Juntar os reads filtrados e de alta qualidade para formar contigs (sequências contíguas) e, idealmente, scaffolds (contigs ordenados e orientados por informações de pareamento). A montagem de novo significa que não usamos um genoma de referência pré-existente.
 
 Ferramentas: SPAdes (para genomas bacterianos e arqueais)
 
 Comandos:
+```
+sudo apt install -y spades
+mkdir assembly
+spades.py --careful -o assembly/SRR10461876_assembly \
+-1 trimmed_reads/SRR10461876_1_paired.fastq \
+-2 trimmed_reads/SRR10461876_2_paired.fastq
+```
+
+
+
+
+
+
+
+
+
+
