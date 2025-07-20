@@ -179,6 +179,25 @@ busco -i genome.fna \
 --cpu 8
 ```
 ### Gráfico para análise do resultado
+O BUSCO oferece um script para gerar um gráfico de barras com os resultados:
+Requisitos
+Python 3
+
+- Pacotes: matplotlib, seaborn, pandas. 
+
+- Os arquivos short_summary.*.txt (gerados pelo BUSCO)
+
+Instalação dos pacotes usando o conda.
+
+```
+conda install matplotlib seaborn pandas
+```
+Para fazer a geração do gráfico, utilize a linha abaixo e ajuste o caminho para o diretório de resultados:
+
+```
+busco --plot DIRECTORY
+```
+
 <img src="busco_plot.png" alt="BUSCO" width="800" height="600" />
 
 
