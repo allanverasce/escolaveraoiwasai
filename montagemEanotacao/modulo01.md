@@ -21,7 +21,7 @@ Objetivo: Obter reads brutos de sequenciamento (FASTQ) de um organismo procariot
 Ferramentas: wget ou fastq-dump (do SRA Toolkit)
 Comandos (exemplo com wget para um arquivo público ou SRA Toolkit):
 
-### Exemplo 1: Download direto de um link (substitua pelo seu link FASTQ)
+### Exemplo : Download direto de um link (substitua pelo seu link FASTQ)
 
 Objetivo: Obter os reads brutos de sequenciamento (geralmente em formato FASTQ) que servirão como entrada para a montagem do genoma.
 
@@ -166,4 +166,26 @@ Adapter Content:
 
 - Problemas: Curvas ascendentes indicam que adaptadores estão presentes e precisam ser removidos.
 
+### 1.4 Filtragem e Trimagem dos Reads
+Objetivo: Remover adaptadores de sequenciamento, bases de baixa qualidade e reads curtos que podem prejudicar a montagem do genoma. Esta etapa é crucial para melhorar a acurácia da montagem.
 
+Ferramentas: Trimmomatic
+
+Comandos:
+
+```
+# Download do Trimmomatic (verifique a versão mais recente em http://www.usadellab.org/cms/index.php?page=trimmomatic)
+wget http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
+unzip Trimmomatic-0.39.zip
+# Acessar o diretório do Trimmomatic para encontrar os arquivos de adaptadores
+TRIMMOMATIC_DIR=$(pwd)/Trimmomatic-0.39
+
+# Exemplo de trimagem para reads pareados (ajuste os parâmetros conforme necessário)
+mkdir trimmed_reads
+java -jar ${TRIMMOMATIC_DIR}/trimmomatic-0.39.jar PE \
+raw_data/SRR10461876_1.fastq raw_data/SRR10461876_2.fastq \
+trimmed_reads/SRR10461876_1_paired.fastq trimmed_reads/SRR10461876_1_unpaired.fastq \
+trimmed_reads/SRR10461876_2_paired.fastq trimmed_reads/SRR10461876_2_unpaired.fastq \
+ILLUMINACLIP:${TRIMMOMATIC_DIR}/adapters/TruSeq3-PE.fa:2:30:10 \
+LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+```
