@@ -44,4 +44,5 @@ A maioria dos genes bacterianos não possui íntrons, tornando o processo mais d
 Ferramentas como Prokka usam internamente Prodigal ou GeneMarkS.
 
 Exemplo de um gene anotado (formato GFF3):
+
 `contig_1  Prodigal  CDS  105  978  .  +  0  ID=cds00001;product=hypothetical protein `
