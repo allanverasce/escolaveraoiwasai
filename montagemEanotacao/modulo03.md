@@ -18,6 +18,25 @@ Inclui:
 - Regiões promotoras (opcional)
 
 Ferramentas:
-Prokka, Bakta, PGAP, GeneMarkS, Glimmer, Barrnap, tRNAscan-SE
+`Prokka, Bakta, PGAP, GeneMarkS, Glimmer, Barrnap, tRNAscan-SE`
+
+### 1.2. Anotação Funcional
+Atribui funções biológicas conhecidas aos elementos identificados na fase estrutural, comparando com bancos de dados funcionais.
+
+Inclui:
+
+Nome da proteína
+
+Atribuição a vias metabólicas (KEGG, MetaCyc)
+
+Atribuição a famílias (Pfam, TIGRFAM, COG)
+
+Detecção de genes de resistência ou virulência
+
+Ferramentas:
+
+InterProScan, HMMER, eggNOG-mapper, Blastp, AMRFinderPlus, RAST
+
+
 
 
