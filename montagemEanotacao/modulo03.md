@@ -43,6 +43,6 @@ InterProScan, HMMER, eggNOG-mapper, Blastp, AMRFinderPlus, RAST
 A maioria dos genes bacterianos não possui íntrons, tornando o processo mais direto.
 Ferramentas como Prokka usam internamente Prodigal ou GeneMarkS.
 
-Exemplo de um gene anotado (formato GFF3):
+Exemplo de um produto gênico anotado (formato GFF3): É possível identificar em qual contig foi encontrado o produto, quais as coordenadas do mesmo e por fim uma inferência sobre sua função.
 
 `contig_1  Prodigal  CDS  105  978  .  +  0  ID=cds00001;product=hypothetical protein `
