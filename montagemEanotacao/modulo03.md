@@ -39,9 +39,9 @@ InterProScan, HMMER, eggNOG-mapper, Blastp, AMRFinderPlus, RAST
 
 
 # 2. Etapas Detalhadas da Anotação Estrutural
-## 2.1. Previsão de Genes Codificadores (CDS)
+## 2.1. Previsão de Sequências de DNA codificantes (CDS - Coding DNA Sequence)
 A maioria dos genes bacterianos não possui íntrons, tornando o processo mais direto.
-Ferramentas como Prokka usam internamente Prodigal ou GeneMarkS.
+Ferramentas como Prokka usam internamente Prodigal, GeneMarkS, entre outras.
 
 Exemplo de um produto gênico anotado (formato GFF3): É possível identificar em qual contig foi encontrado o produto, quais as coordenadas do mesmo e por fim uma inferência sobre sua função.
 
