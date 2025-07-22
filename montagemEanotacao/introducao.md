@@ -4,7 +4,7 @@
 
 - Extração do material genético: inicia-se com a extração de DNA ou RNA da amostra biológica.
 
-- Preparação da biblioteca (Library Prep): fragmentação, adição de adaptadores e quantificação (ex: Qubit, qPCR).
+- Preparação da biblioteca: fragmentação, adição de adaptadores e quantificação (ex: Qubit, qPCR).
 
 - Amplificação e/ou clonagem: em algumas plataformas, ocorre amplificação por PCR ou bridge amplification.
 
@@ -17,7 +17,7 @@
 
 - Amplamente utilizada, com alta acurácia (> 99 %) e alto throughput. Modalidades incluem NovaSeq, MiSeq, NextSeq 550
 
-- Leitura curta (curtread) de até ~300 bp por extremidade. Ideal para RNA‑seq, exoma, re‑seq, estudos populacionais
+- Leitura curta (short reads) de até ~300 bp por extremidade. Ideal para RNA‑seq, exoma, re‑seq, estudos populacionais
 
 Exemplos:
 
