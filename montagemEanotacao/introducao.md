@@ -36,4 +36,4 @@ Exemplos:
 
 Exemplos:
 
-<img src="imgs/nanopore.jpg" alt="Nanopore" width="300" height="200" /> 
+<img src="imgs/nanopore.jpg" alt="Nanopore" width="400" height="300" /> 
