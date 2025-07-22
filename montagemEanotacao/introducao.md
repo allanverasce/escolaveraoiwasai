@@ -30,3 +30,10 @@ Exemplos:
 Exemplos:
 
 <img src="imgs/pacbio-rs-ii-3896577-400x300.jpg" alt="pacbiorsII" width="200" height="150" /> <img src="imgs/pacbio-sequel-iie-system.webp" alt="pacbiorssequel" width="200" height="150" /> 
+
+### Oxford Nanopore Technologies (ONT – nanopore sequencing)
+- Detecta alterações na corrente elétrica à medida que a molécula de DNA/RNA passa por um nanoporo. Permite leituras ultralongas (muitas centenas de kb a Mb) e sequenciamento em tempo real.
+
+Exemplos:
+
+<img src="imgs/nanopore.jpg" alt="Nanopore" width="300" height="200" /> 
