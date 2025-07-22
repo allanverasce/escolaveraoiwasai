@@ -1,4 +1,4 @@
-# Origem dos dados em bioinformática
+# Origem dos dados utilizados na Bioinformática
 
 ## 1. Do sequenciamento ao dado digital
 
