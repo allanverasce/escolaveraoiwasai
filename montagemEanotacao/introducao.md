@@ -21,4 +21,4 @@
 
 Exemplos:
 
-<img src="imgs/nextseq-1000-2000.png" alt="nextseq" width="400" height="300" /> <img src="imgs/novaseq-6000.png" alt="novaseq" width="400" height="300" /> <img src="imgs/MiSeq.png" alt="MiSeq" width="400" height="300" />
+<img src="imgs/nextseq-1000-2000.png" alt="nextseq" width="200" height="150" /> <img src="imgs/novaseq-6000.png" alt="novaseq" width="200" height="150" /> <img src="imgs/MiSeq.png" alt="MiSeq" width="200" height="150" />
