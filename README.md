@@ -34,3 +34,10 @@ A primeira edição conta com atividades teóricas e práticas nos seguintes tó
 - Identificação de RNAs e elementos genéticos móveis
 
 - Visualização e interpretação de dados genômicos
+
+# 🔬 Público-Alvo
+Estudantes de graduação e pós-graduação, pesquisadores e profissionais interessados em biotecnologia, bioinformática, microbiologia e áreas afins.
+
+# 🤝 Apoio e Organização
+
+<img src="EngBio logo.png" alt="Laboratório de Engenharia Biológica" width="400" height="300" />
