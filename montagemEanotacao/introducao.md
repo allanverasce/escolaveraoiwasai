@@ -13,7 +13,7 @@
 - Formato de saída: arquivos como FASTQ (sequências + qualidade), SAM/BAM
 
 ## 2. Principais plataformas de sequenciamento
-- Illumina (Sequencing by Synthesis – SBS)
+### Illumina (Sequencing by Synthesis – SBS)
 
 - Amplamente utilizada, com alta acurácia (> 99 %) e alto throughput. Modalidades incluem NovaSeq, MiSeq, NextSeq 550
 
@@ -22,3 +22,11 @@
 Exemplos:
 
 <img src="imgs/nextseq-1000-2000.png" alt="nextseq" width="200" height="150" /> <img src="imgs/novaseq-6000.png" alt="novaseq" width="200" height="150" /> <img src="imgs/MiSeq.png" alt="MiSeq" width="200" height="150" />
+
+### Pacific Biosciences (PacBio – SMRT e HiFi reads)
+- Sequenciamento de molécula única em tempo real, com leituras longas (até dezenas de kb) e alta acurácia na versão HiFi (~99,9 %)
+- Excelente para montagem de novo de genomas, detecção de variantes estruturais e epigenoma
+
+Exemplos:
+
+<img src="imgs/pacbio-rs-ii-3896577-400x300.jpg" alt="pacbiorsII" width="200" height="150" /> <img src="imgs/pacbio-sequel-iie-system.webp" alt="pacbiorssequel" width="200" height="150" /> 
