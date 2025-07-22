@@ -3,7 +3,7 @@ Este módulo aborda a reconstrução do genoma a partir dos reads curtos e a ava
 
 # Objetivo do processo de Montagem juntamente com etapas
 
-<img src="etapasM.png" alt="Etapas de Montagem" width="800" height="600" />
+<img src="imgs/etapasM.png" alt="Etapas de Montagem" width="800" height="600" />
 
 
 
