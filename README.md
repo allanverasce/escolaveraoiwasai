@@ -40,4 +40,4 @@ Estudantes de graduação e pós-graduação, pesquisadores e profissionais inte
 
 ### 🤝 Apoio e Organização
 
-<img src="montagemEanotacao/imgs/EngBio%20logo.png" alt="Laboratório de Engenharia Biológica" width="200" height="150" />   <img src="montagemEanotacao/imgs/CNPq.jpg" alt="Laboratório de Engenharia Biológica" width="200" height="150" /> <img src="montagemEanotacao/imgs/ufpa.png" alt="Laboratório de Engenharia Biológica" width="200" height="150" />
+<img src="montagemEanotacao/imgs/EngBio%20logo.png" alt="Laboratório de Engenharia Biológica" width="200" height="150" /> <img src="montagemEanotacao/imgs/ufpa.png" alt="UFPA" width="200" height="150" />  <img src="montagemEanotacao/imgs/CNPq.jpg" alt="CNPq" width="200" height="150" /> 
