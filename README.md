@@ -35,9 +35,10 @@ A primeira edição conta com atividades teóricas e práticas nos seguintes tó
 
 - Visualização e interpretação de dados genômicos
 
-# 🔬 Público-Alvo
+### 🔬 Público-Alvo
 Estudantes de graduação e pós-graduação, pesquisadores e profissionais interessados em biotecnologia, bioinformática, microbiologia e áreas afins.
 
-# 🤝 Apoio e Organização
+### 🤝 Apoio e Organização
 
 <img src="montagemEanotacao/imgs/EngBio%20logo.png" alt="Laboratório de Engenharia Biológica" width="300" height="200" />
+<img src="montagemEanotacao/imgs/CNPq.jpg" alt="Laboratório de Engenharia Biológica" width="300" height="200" />
