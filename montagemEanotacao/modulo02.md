@@ -52,7 +52,7 @@ Saídas do SPAdes: O diretório de saída (assembly/SRR10461876_assembly/) conte
 
 Conceito de K-mers: Montadores de novo como o SPAdes funcionam construindo um grafo de De Bruijn. Eles quebram os reads em sub-sequências de comprimento fixo chamadas "k-mers". As sobreposições entre esses k-mers são usadas para construir o grafo, onde os nós são k-mers e as arestas representam sobreposições. Caminhos através do grafo representam as sequências do genoma. O SPAdes testa múltiplos tamanhos de k-mers automaticamente para encontrar a melhor montagem.
 
-<img src="grafo.png" alt="Grafos" width="800" height="600" />
+<img src="imgs/grafo.png" alt="Grafos" width="800" height="600" />
 
 ### 2.2 Avaliação da Qualidade da Montagem
 Objetivo: Avaliar métricas importantes da montagem para determinar sua completude, contiguidade e acurácia. Esta etapa é crucial para entender a qualidade do genoma reconstruído.
@@ -198,6 +198,6 @@ Para fazer a geração do gráfico, utilize a linha abaixo e ajuste o caminho pa
 busco --plot DIRECTORY
 ```
 
-<img src="busco_plot.png" alt="BUSCO" width="800" height="600" />
+<img src="imgs/busco_plot.png" alt="BUSCO" width="800" height="600" />
 
 
