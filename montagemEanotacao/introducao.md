@@ -20,4 +20,5 @@
 - Leitura curta (curtread) de até ~300 bp por extremidade. Ideal para RNA‑seq, exoma, re‑seq, estudos populacionais
 
 Exemplos:
+
 <img src="imgs/nextseq-1000-2000.png" alt="nextseq" width="400" height="300" /> <img src="imgs/novaseq-6000.png" alt="novaseq" width="400" height="300" /> <img src="imgs/MiSeq.png" alt="MiSeq" width="400" height="300" />
