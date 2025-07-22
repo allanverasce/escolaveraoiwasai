@@ -40,4 +40,4 @@ Estudantes de graduação e pós-graduação, pesquisadores e profissionais inte
 
 # 🤝 Apoio e Organização
 
-<img src="EngBio logo.png" alt="Laboratório de Engenharia Biológica" width="400" height="300" />
+<img src="montagemEanotacao/imgs/EngBio%20logo.png" alt="Laboratório de Engenharia Biológica" width="400" height="300" />
