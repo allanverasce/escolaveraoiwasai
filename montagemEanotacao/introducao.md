@@ -40,6 +40,6 @@ Exemplos:
 
 ## 3. Formato do Dado
 
-<img src="escolaveraoiwasai/montagemEanotacao/imgs/fastq_fig.jpg" alt="Etapas de Montagem" width="800" height="600" />
+<img src="montagemEanotacao/imgs/fastq_fig.jpg" alt="FASTQ" width="800" height="600" />
 
 
