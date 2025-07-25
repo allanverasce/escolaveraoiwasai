@@ -37,3 +37,9 @@ Exemplos:
 Exemplos:
 
 <img src="imgs/nanopore.jpg" alt="Nanopore" width="800" height="600" /> 
+
+## 3. Formato do Dado
+
+<img src="escolaveraoiwasai/montagemEanotacao/imgs/fastq_fig.jpg" alt="Etapas de Montagem" width="800" height="600" />
+
+
