@@ -1,3 +1,5 @@
+<img src="[montagemEanotacao/imgs/dna.jpeg)" alt="Avaliação de Qualidade" width="800" height="600" />
+
 # 🌞 Escola de Verão IWASA'I
 Genômica e Bioinformática - Primeira Edição
 Bem-vindos ao repositório oficial da Escola de Verão IWASA'I!
