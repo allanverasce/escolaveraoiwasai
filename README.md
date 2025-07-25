@@ -27,13 +27,13 @@ A primeira edição conta com atividades teóricas e práticas nos seguintes tó
 
 - Qualidade e limpeza de dados de sequenciamento
 
-- Montagem de genomas (SPAdes, Unicycler)
+- Montagem de genomas 
 
-- Avaliação da montagem (QUAST, BUSCO)
+- Avaliação da montagem 
 
-- Anotação genômica (Prokka, Bakta, DFAST)
+- Anotação genômica 
 
-- Identificação de RNAs e elementos genéticos móveis
+- Identificação de RNAs 
 
 - Visualização e interpretação de dados genômicos
 
