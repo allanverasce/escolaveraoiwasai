@@ -38,8 +38,18 @@ Exemplos:
 
 <img src="imgs/nanopore.jpg" alt="Nanopore" width="800" height="600" /> 
 
+
+### Plataformas
+<img src="imgs/platforms.jpeg" alt="Plataformas" width="800" height="600" />
+
+
+
+
 ## 3. Formato do Dado
 
 <img src="imgs/fastq_fig.jpg" alt="FASTQ" width="800" height="600" />
+
+
+
 
 
