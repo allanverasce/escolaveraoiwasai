@@ -49,7 +49,7 @@ Estudantes de graduação e pós-graduação, pesquisadores e profissionais inte
 
 Fique à vontade para entrar em contato conosco pelos canais abaixo:
 
-- 📧 **E-mail**: [contato@seulaboratorio.org](mailto:contato@seulaboratorio.org)
+- 📧 **E-mail**: [engbiopct@gmail.com](mailto:engbiopct@gmail.com)
 - 📸 **Instagram**: [@engbiopct](https://www.instagram.com/engbiopct)
 - 💼 **LinkedIn**: [Laboratório de Engenharia Biológica - EngBIO](https://www.linkedin.com/in/engbiopct/)
 
