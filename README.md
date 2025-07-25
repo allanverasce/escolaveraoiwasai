@@ -45,7 +45,7 @@ Estudantes de graduação e pós-graduação, pesquisadores e profissionais inte
 <img src="montagemEanotacao/imgs/EngBio%20logo.png" alt="Laboratório de Engenharia Biológica" width="200" height="150" /> <img src="montagemEanotacao/imgs/ufpa.png" alt="UFPA" width="200" height="150" /> <img src="montagemEanotacao/imgs/CNPq.jpg" alt="CNPq" width="200" height="150" /> 
 
 
-## 📞 Contato
+##  Contato
 
 Fique à vontade para entrar em contato conosco pelos canais abaixo:
 
