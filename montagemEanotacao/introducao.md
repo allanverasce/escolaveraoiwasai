@@ -39,6 +39,8 @@ Exemplos:
 <img src="imgs/nanopore.jpg" alt="Nanopore" width="800" height="600" /> 
 
 
+</br>
+
 ### Plataformas
 <img src="imgs/platforms.jpeg" alt="Plataformas" width="800" height="600" />
 
