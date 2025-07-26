@@ -80,6 +80,7 @@ java -jar artemis.jar
 Janela Principal
 
 *<img src="imgs/artemis3.png" alt="Janela com CDS" width="400" height="300" />*
+
 Janela do Artemis com a sequência aberta, mostrando as faixas genômicas e ORFs coloridas.
 
 ---
