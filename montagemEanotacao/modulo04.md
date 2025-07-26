@@ -75,9 +75,12 @@ java -jar artemis.jar
 2. Vá em **File > Open**.
 3. Selecione o arquivo `ecoli.gbk`.
 
-🖼️ *<img src="imgs/Artemis01.png" alt="Janela Principal" width="800" height="600" />*: Janela Principal
+🖼️ *<img src="imgs/Artemis01.png" alt="Janela Principal" width="400" height="300" />*
 
-🖼️ *<img src="imgs/artemis2.png" alt="Janela Principal" width="800" height="600" />*: Janela do Artemis com a sequência aberta, mostrando as faixas genômicas e ORFs coloridas.
+Janela Principal
+
+🖼️ *<img src="imgs/artemis3.png" alt="Janela Principal" width="400" height="300" />*
+Janela do Artemis com a sequência aberta, mostrando as faixas genômicas e ORFs coloridas.
 
 ---
 
