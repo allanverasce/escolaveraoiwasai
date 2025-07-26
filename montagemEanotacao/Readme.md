@@ -8,3 +8,6 @@ Este plano de curso detalha as etapas para a montagem e anotação de genomas de
 
 ### Ambiente de Trabalho
 Recomenda-se utilizar uma máquina virtual (e.g., VirtualBox) com Ubuntu ou um servidor Linux com acesso SSH.
+
+
+### Caso queira se aprofundar esta aberto o acesso ao repositório: https://github.com/allanverasce/shell-script-aulas
