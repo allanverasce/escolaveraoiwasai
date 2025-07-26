@@ -75,7 +75,7 @@ java -jar artemis.jar
 2. Vá em **File > Open**.
 3. Selecione o arquivo `ecoli.gbk`.
 
-*<img src="imgs/Artemis01.png" alt="Janela Principal" width="400" height="300" />* *<img src="imgs/Artemis2.png" alt="Menu File" width="400" height="300" />*
+*<img src="imgs/Artemis01.png" alt="Janela Principal" width="400" height="300" />* *<img src="imgs/artemis2.png" alt="Menu File" width="400" height="300" />*
 
 Janela Principal
 
