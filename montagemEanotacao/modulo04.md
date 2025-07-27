@@ -13,7 +13,6 @@ Neste módulo, você aprenderá:
 
 - [UCSC Genome Browser](https://genome.ucsc.edu/)
 - [Ensembl Genome Browser](https://www.ensembl.org/index.html)
-- [GBrowse](http://gmod.org/wiki/GBrowse)
 - [IGV - Integrative Genomics Viewer](https://software.broadinstitute.org/software/igv/)
 - **Artemis** (local, offline – foco deste módulo)
 
