@@ -89,7 +89,9 @@ Janela do Artemis com a sequência aberta, mostrando as faixas genômicas e ORFs
 * Use o **mouse** ou as setas para se mover pela sequência.
 * Clique duplo sobre um gene para ver detalhes como: produto, localização, strand, codificação.
 
-🖼️ *\[Imagem Descritiva]*: Caixa de informações do gene "dnaA", destacando suas anotações.
+*<img src="imgs/artemis4.png" alt="Janela Completa DNAa" width="400" height="300" />*:
+
+*<img src="imgs/artemis5.png" alt="DNAa" width="400" height="300" />*: Caixa de informações do gene "dnaA", destacando suas anotações.
 
 ---
 
