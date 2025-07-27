@@ -32,8 +32,7 @@ Comandos (exemplo com fastq-dump para um SRA Accession):
 # Instalar SRA Toolkit (verifique a versão mais recente no site do NCBI)
 wget https://ftp.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
 tar -xzf sratoolkit.current-ubuntu64.tar.gz
-export PATH=$PATH:$(pwd)/sratoolkit.current-ubuntu64/bin # Adiciona ao PATH temporariamente
-
+export PATH=$PATH:/home/allan/Downloads/sratoolkit.3.2.1-ubuntu64/bin # Adiciona ao PATH 
 # Criar diretório para os dados brutos
 mkdir raw_data
 cd raw_data
