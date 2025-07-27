@@ -91,7 +91,9 @@ Janela do Artemis com a sequência aberta, mostrando as faixas genômicas e ORFs
 
 *<img src="imgs/artemis4.png" alt="Janela Completa DNAa" width="400" height="300" />*:
 
-*<img src="imgs/artemis5.png" alt="DNAa" width="400" height="300" />*: Caixa de informações do gene "dnaA", destacando suas anotações.
+*<img src="imgs/artemis5.png" alt="DNAa" width="800" height="600" />*
+
+Caixa de informações do gene "dnaA", destacando suas anotações.
 
 ---
 
