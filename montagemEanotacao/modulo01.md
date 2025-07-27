@@ -68,7 +68,7 @@ cd .. # Voltar ao diretório principal do curso
 ### 1.3 Avaliação da Qualidade dos Reads
 Objetivo: Avaliar a qualidade dos reads brutos para identificar problemas como adaptadores de sequenciamento, bases de baixa qualidade, viés de GC e contaminação. Esta etapa é crítica para garantir que apenas dados de alta qualidade sejam usados na montagem.
 
-Ferramentas: FastQC
+Ferramentas: FastQC - https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 
 Comandos:
 
