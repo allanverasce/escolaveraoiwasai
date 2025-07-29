@@ -1,5 +1,5 @@
 
-<img src="montagemEanotacao/imgs/dnaLOGO.jpg" alt="DNA" width="400" height="300" />
+<img src="montagemEanotacao/imgs/praiadna.png" alt="DNA" width="800" height="600" />
 
 
 # 🌞 Escola de Verão IWASA'I
