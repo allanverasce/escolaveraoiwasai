@@ -1,6 +1,6 @@
-
+<p align="center">
 <img src="montagemEanotacao/imgs/praiadna.png" alt="DNA" width="400" height="300" />
-
+</p>
 
 # 🌞 Escola de Verão IWASA'I
 Genômica e Bioinformática - Primeira Edição
