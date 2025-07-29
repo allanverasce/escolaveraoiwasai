@@ -1,5 +1,6 @@
 
-![DNA](montagemEanotacao/imgs/dnaLOGO.jpg)
+<img src="montagemEanotacao/imgs/dnaLOGO.jpg" alt="DNA" width="400" height="300" />
+
 
 # 🌞 Escola de Verão IWASA'I
 Genômica e Bioinformática - Primeira Edição
