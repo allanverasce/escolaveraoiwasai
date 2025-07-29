@@ -1,5 +1,5 @@
 <p align="center">
-<img src="montagemEanotacao/imgs/praiadna.png" alt="DNA" width="400" height="300" />
+<img src="https://github.com/allanverasce/escolaveraoiwasai/blob/main/montagemEanotacao/imgs/praiadna.png" alt="DNA" width="400" height="300" />
 </p>
 
 # 🌞 Escola de Verão IWASA'I
