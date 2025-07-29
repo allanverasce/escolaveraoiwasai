@@ -1,4 +1,4 @@
-<img src="montagemEanotacao/imgs/dna.jpg" alt="DNA" width="800" height="600" />
+<img src="montagemEanotacao/imgs/dnaLOGO.jpg" alt="DNA" width="800" height="600" />
 
 # 🌞 Escola de Verão IWASA'I
 Genômica e Bioinformática - Primeira Edição
