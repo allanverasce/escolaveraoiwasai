@@ -24,3 +24,5 @@ git clone https://github.com/fenderglass/Flye
 cd Flye
 make
 sudo apt install prokka
+pip install NanoPlot NanoFilt
+conda install -c bioconda raven-assembler
