@@ -13,8 +13,9 @@ Comandos:
 sudo apt update
 sudo apt upgrade -y
 sudo apt install -y build-essential wget git unzip screen default-jre
-conda install -c minimap2 nanofilt quast
+conda install -c minimap2 nanofilt quast samtools 
 conda install bioconda::flye
+conda install bioconda::seqtk
 
 ```
 
