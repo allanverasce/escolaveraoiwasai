@@ -8,10 +8,14 @@ Ferramentas: apt, wget, git
 
 Comandos:
 
+
 ```
 sudo apt update
 sudo apt upgrade -y
 sudo apt install -y build-essential wget git unzip screen default-jre
+conda install -c minimap2 nanofilt quast
+conda install bioconda::flye
+
 ```
 
 Descrição: Atualiza o sistema, instala compiladores C/C++, `wget` para downloads, `git` para clonar repositórios, `unzip` para descompactar arquivos, `screen` para sessões persistentes no terminal e `Java` (JRE) para algumas ferramentas.
