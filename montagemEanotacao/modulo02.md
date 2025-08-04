@@ -172,7 +172,7 @@ Legenda:
 - Este modo detecta automaticamente se o genoma é bacteriano ou arqueano, e usa a base de dados correspondente.
 
 ```
-busco -i genome.fna \
+busco -i assembly/SRR10461876_assembly/scaffolds.fasta \
 -o busco_output \
 -m genome \
 --auto-lineage-prok \
