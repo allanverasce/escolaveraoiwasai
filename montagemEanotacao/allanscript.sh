@@ -1,7 +1,8 @@
 #/bin/bash
 sudo apt update
 sudo apt upgrade -y
-sudo apt install -y build-essential wget git unzip screen default-jre
+sudo apt install -y build-essential wget git unzip screen
+sudo apt install openjdk-17-jdk -y
 wget https://ftp.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
 tar -xzf sratoolkit.current-ubuntu64.tar.gz
 chmod -R 777 sratoolkit.3.2.1-ubuntu64
