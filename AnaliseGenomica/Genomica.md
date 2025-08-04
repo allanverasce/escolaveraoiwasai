@@ -10,7 +10,7 @@ A análise genômica moderna permite identificar e caracterizar genes responsáv
 
 O antiSMASH (**anti**biotics & **S**econdary **M**etabolite **A**nalysis **SH**ell) é uma ferramenta computacional que identifica, anota e analisa clusters de genes de metabolitos secundários em genomas microbianos.
 
-![antiSMASH Interface](https://antismash.secondarymetabolites.org/images/antismash_logo.svg)
+![Metabolitos secundarios](https://scx2.b-cdn.net/gfx/news/2024/unlocking-plant-potent.jpg)
 
 ### Tipos de Metabolitos Secundários Detectados
 
@@ -58,7 +58,7 @@ Formato mais simples, contendo apenas sequências.
    - Escolher módulos de análise
    - Definir parâmetros de rigor
 
-![antiSMASH Web Interface](https://antismash.secondarymetabolites.org/images/antismash_overview.png)
+![antiSMASH Web](https://docs.antismash.secondarymetabolites.org/img/region_display.png)
 
 ### Módulos Disponíveis na Interface Web
 
@@ -71,7 +71,7 @@ Formato mais simples, contendo apenas sequências.
 
 ##4. ResFinder
 
-![Genes de resistencia](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sciencedirect.com%2Ftopics%2Fengineering%2Fantibiotic-resistance-genes&psig=AOvVaw3vMyqr8wWmdwrJi-_qldPg&ust=1754435830205000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPDG9fik8o4DFQAAAAAdAAAAABAE)
+![Genes de resistencia](https://www.researchgate.net/publication/340266119/figure/fig1/AS:874472089337856@1585501801246/Antibiotic-resistance-dissemination-mechanisms-and-pathways-A-Schematic-overview-of.png)
 
 - Ferramenta específica para resistência
 - Interface: https://cge.cbs.dtu.dk/services/ResFinder/
