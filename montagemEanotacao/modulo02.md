@@ -62,7 +62,7 @@ Ferramentas: QUAST (Quality Assessment Tool for Genome Assemblies) : https://git
 Comandos:
 
 ```
-sudo apt install -y quast
+sudo pip install quast
 mkdir quast_report
 quast.py assembly/SRR10461876_assembly/contigs.fasta -o quast_report/
 ```
