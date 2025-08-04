@@ -10,7 +10,9 @@ A análise genômica moderna permite identificar e caracterizar genes responsáv
 
 O antiSMASH (**anti**biotics & **S**econdary **M**etabolite **A**nalysis **SH**ell) é uma ferramenta computacional que identifica, anota e analisa clusters de genes de metabolitos secundários em genomas microbianos.
 
-![Metabolitos secundarios](https://scx2.b-cdn.net/gfx/news/2024/unlocking-plant-potent.jpg)
+![Metabolitos secundarios](https://ars.els-cdn.com/content/image/1-s2.0-S2667064X22000707-gr1.jpg)
+
+![Metabolitos secundarios 2](https://encyclopedia.pub/media/common/202303/mceclip0-640ac0aeb41b4.png)
 
 ### Tipos de Metabolitos Secundários Detectados
 
