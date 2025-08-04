@@ -73,7 +73,7 @@ Formato mais simples, contendo apenas sequências.
 
 ##4. ResFinder
 
-![Genes de resistencia](https://www.researchgate.net/publication/340266119/figure/fig1/AS:874472089337856@1585501801246/Antibiotic-resistance-dissemination-mechanisms-and-pathways-A-Schematic-overview-of.png)
+![Genes de resistencia](./Antibiotic.png)
 
 - Ferramenta específica para resistência
 - Interface: https://cge.cbs.dtu.dk/services/ResFinder/
