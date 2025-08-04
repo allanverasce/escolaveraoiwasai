@@ -19,7 +19,8 @@ wget https://busco-data.ezlab.org/v10/data/lineages/bacteria_odb10.2020-09-10.ta
 tar -xzf bacteria_odb10.2020-09-10.tar.gz
 conda install matplotlib seaborn pandas
 cd /home/monitor/dataiwasai
-wget https://sanger-pathogens.github.io/Artemis/artemis.jar
+wget https://github.com/sanger-pathogens/Artemis/releases/download/v18.2.0/artemis-unix-release-18.2.0.tar.gz
+tar zxf artemis-unix-release-{version}.tar.gz
 git clone https://github.com/fenderglass/Flye
 cd Flye
 make
