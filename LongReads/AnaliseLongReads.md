@@ -92,10 +92,6 @@ raven myco.filtered.fastq.gz > assembly.fasta
 
 Obtenha estatísticas do assembly:
 
-```bash
-seqkit stats assembly.fasta
-```
-
 Conte o número de contigs:
 
 ```bash
