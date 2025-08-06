@@ -86,6 +86,13 @@ Ver estatísticas das leituras filtradas:
 raven myco.filtered.fastq.gz > assembly.fasta
 ```
 
+```bash
+zcat myco.fastq.gz > myco.fastq
+```
+
+
+Opções Proksee e Galaxy
+
 ---
 
 ## 📈 6. Avaliação da Montagem
