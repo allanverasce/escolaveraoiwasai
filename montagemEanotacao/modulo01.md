@@ -195,6 +195,10 @@ trimmed_reads/SRR10461876_2_paired.fastq trimmed_reads/SRR10461876_2_unpaired.fa
 ILLUMINACLIP:${TRIMMOMATIC_DIR}/adapters/TruSeq3-PE.fa:2:30:10 \
 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 ```
+PARA USAR: 
+
+java -jar ./Trimmomatic-0.39/trimmomatic-0.39.jar PE ./raw_data/SRR10461876_1.fastq ./raw_data/SRR10461876_2.fastq ./ecoli_1.fastq ./ecoli_2.fastq  ./leiturasruins_1.fastq ./leiturasruins_2.fastq SLIDINGWINDOW:4:20 MINLEN:100
+
 
 ### Descrição Detalhada:
 
