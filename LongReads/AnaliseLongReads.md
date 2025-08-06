@@ -46,7 +46,6 @@ pip install NanoPlot NanoFilt
 ### 2.3 Instalar outras ferramentas
 
 ```bash
-sudo apt install seqkit
 conda install -c bioconda prokka
 ```
 
@@ -78,9 +77,6 @@ zcat myco.fastq.gz | NanoFilt -l 1000 -q 9 | gzip > myco.filtered.fastq.gz
 
 Ver estatísticas das leituras filtradas:
 
-```bash
-seqkit stats myco.filtered.fastq.gz
-```
 
 ---
 
