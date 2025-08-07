@@ -16,6 +16,10 @@ Neste módulo, você aprenderá:
 - [IGV - Integrative Genomics Viewer](https://software.broadinstitute.org/software/igv/)
 - **Artemis** (local, offline – foco deste módulo)
 
+- Download do Artemis
+https://drive.google.com/drive/folders/1Ht_0mibS2ydfqw3o_rLewO8SvbP5o-2p?usp=sharing
+
+
 
 ## 🧬 2. Artemis: Visualizador e Anotador Genômico (Curadoria) 🧬
 
